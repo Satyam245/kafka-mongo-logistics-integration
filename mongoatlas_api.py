@@ -5,9 +5,9 @@ from bson import ObjectId
 app = Flask(__name__)
 
 # MongoDB connection setup
-client = MongoClient("mongodb+srv://satyamgour2409:satyamg2@mongodb-cluster.3t9jief.mongodb.net/?retryWrites=true&w=majority")
-db = client['Mongo-kafka-project']
-collection = db['delivery-data']
+client = MongoClient("your connection link")
+db = client['your database name']
+collection = db['your collection name']
 
 
 # Helper function to convert ObjectId to string
