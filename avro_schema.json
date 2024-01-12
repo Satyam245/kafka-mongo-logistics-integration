@@ -1,0 +1,231 @@
+{
+  "fields": [
+    {
+      "name": "GpsProvider",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "BookingID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "MarketRegular",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "BookingID_Date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "vehicle_no",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Origin_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Destination_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Org_lat_lon",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Des_lat_lon",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Data_Ping_time",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Planned_ETA",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Current_Location",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "DestinationLocation",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "actual_eta",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Curr_lat",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "Curr_lon",
+      "type": [
+        "null",
+        "double"
+      ]
+    },
+    {
+      "name": "ontime",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "delay",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "OriginLocation_Code",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "DestinationLocation_Code",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "trip_start_date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "trip_end_date",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "TRANSPORTATION_DISTANCE_IN_KM",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "vehicleType",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Minimum_kms_to_be_covered_in_a_day",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "Driver_Name",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Driver_MobileNo",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "customerID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "customerNameCode",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "supplierID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "supplierNameCode",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "Material_Shipped",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "TripData",
+  "namespace": "com.kaggle.dataset",
+  "type": "record"
+}
