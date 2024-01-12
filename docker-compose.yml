@@ -5,6 +5,6 @@ services:
     build:
       context: .
     environment:
-      - KAFKA_BOOTSTRAP_SERVERS=pkc-l7pr2.ap-south-1.aws.confluent.cloud:9092
+      - KAFKA_BOOTSTRAP_SERVERS=your kafka bootstrap server link
     deploy:
       replicas: 3  # Adjust the number of replicas as needed
